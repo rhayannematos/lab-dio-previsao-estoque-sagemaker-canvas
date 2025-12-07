@@ -1,6 +1,8 @@
 # lab-dio-previsao-estoque-sagemaker-canvas
 Projeto desenvolvido para o desafio da DIO, aplicando conceitos de Machine Learning no-code com o Amazon SageMaker Canvas para criar um modelo de previsão de estoque. O repositório contém dataset, documentação completa do processo e análises geradas durante o desenvolvimento.
 
+---
+
 ## Dataset
 
 Dataset utilizado: **sales_with_date.csv** (presente na pasta `/datasets`).
@@ -14,6 +16,8 @@ Esse dataset contém informações de vendas ao longo do tempo, incluindo:
 - Price — preço unitário
 
  **Coluna alvo (previsão):** `Quantity`
+
+---
  
 ## Passo a Passo no Amazon SageMaker Canvas
 
@@ -34,6 +38,8 @@ Esse dataset contém informações de vendas ao longo do tempo, incluindo:
 
 Essas métricas indicam uma boa capacidade de previsão para o cenário proposto.
 
+---
+
 ## Importância das Features
 
 O modelo identificou as variáveis mais importantes para prever a quantidade de vendas:
@@ -45,6 +51,8 @@ O modelo identificou as variáveis mais importantes para prever a quantidade de 
 
 Essas variáveis explicam a maior parte da variação das previsões.
 
+---
+
 ## Previsões de Estoque
 
 | Date       | Product | Price | Previsão Quantity |
@@ -52,6 +60,8 @@ Essas variáveis explicam a maior parte da variação das previsões.
 | 2025-01-10 | A32     | 12.90 | 54                |
 | 2025-01-11 | A32     | 12.90 | 58                |
 | 2025-01-12 | A32     | 12.90 | 61                |
+
+---
 
 ## Insights Obtidos
 
@@ -61,12 +71,16 @@ Essas variáveis explicam a maior parte da variação das previsões.
 - A previsão ajuda no planejamento de reposição e redução de ruptura de estoque.
 - Ferramentas no-code como o Canvas facilitam o uso de IA sem necessidade de programação.
 
+---
+
 ## Como Reproduzir
 
 1. Acesse a pasta **/datasets** para ver o arquivo utilizado.
 2. Leia este README para entender o fluxo completo.
 3. Importe o dataset em qualquer ferramenta de ML no-code para replicar.
 4. As previsões estão demonstradas na seção anterior.
+
+---
 
 ## Autor
 
